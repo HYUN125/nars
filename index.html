@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NARS</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <script src="./js/vendor/modernizr.custom.min.js"></script>
+    <script src="./js/vendor/jquery-1.10.2.min.js"></script>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8d7a603239.js" crossorigin="anonymous"></script>
+    <!-- googlEfonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- animateCss -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- aos -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- cludeflare js cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <!-- swiperjs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- jQuery.js -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <!-- gsap.js(2개) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js" integrity="sha512-tQFq+nb/TSS648SDzWbSj0A67t4I1PFzR0U6Oi/yEYFyUbAIwg74SOCbr7t2X1Rn+iln7sYwfh8y+z7p0gddOw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <!-- 모바일메뉴 -->
+        <div class="m-back"></div>
+        <div class="m-btn"><a href="#">
+            <span class="line"></span>
+        </a>
+        </div>
+
+        <div class="mobile-menu">
+            <a class="m-logo" href="#"><img src="images/nars-whitelogo.png" alt="모바일로고"></a>
+            <ul class="m-menu">
+                <li><a href="#">New</a></li>
+                <li><a href="#" class="m-mainmenu">Products</a>
+                    <ul class="m-submenu">
+                        <li><a href="#">브러쉬 / 툴</a></li>
+                        <li><a href="#">페이스</a></li>
+                        <li><a href="#">치크</a></li>
+                        <li><a href="#">립</a></li>
+                        <li><a href="#">아이</a></li>
+                        <li><a href="#">멀티유즈</a></li>
+                        <li><a href="#">스킨케어</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Best Seller</a></li>
+                <li><a href="#" class="m-mainmenu">Francois NARS</a>
+                    <ul class="m-submenu">
+                        <li><a href="#">Explore</a></li>
+                        <li><a href="#">About Francois</a></li>
+                        <li><a href="#">Books</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Foundation Finder</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </div>
+
+        <!-- header -->
+        <header class="header">
+            <nav>
+                <ul class="main">
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Products</a>
+                        <ul class="sub">
+                            <li><a href="#">브러쉬 / 툴</a></li>
+                            <li><a href="#">페이스</a></li>
+                            <li><a href="#">치크</a></li>
+                            <li><a href="#">립</a></li>
+                            <li><a href="#">아이</a></li>
+                            <li><a href="#">멀티유즈</a></li>
+                            <li><a href="#">스킨케어</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"> Best Seller</a></li>
+                    <li><a href="#">Francois NARS</a>
+                        <ul class="sub">
+                            <li><a href="#">Explore</a></li>
+                            <li><a href="#">About Francois</a></li>
+                            <li><a href="#">Books</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Foundation Finder</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- visual -->
+        <section class="visual">
+            <div class="inner">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide banner-1">
+                            <img src="images/Mainbanner/banner01.png" alt="메인배너1">
+                            <div class="mainbn-nars">
+                                <img class="bn-line-1 mb-nars-al" src="images/Mainbanner/Shape02.png" alt="보조선">
+                                <img class="bn-n mb-nars-al" src="images/Mainbanner/N.png" alt="N">
+                                <img class="bn-a mb-nars-al" src="images/Mainbanner/A.png" alt="A">
+                                <img class="bn-r mb-nars-al" src="images/Mainbanner/R.png" alt="R">
+                                <img class="bn-s mb-nars-al" src="images/Mainbanner/S.png" alt="S">
+                                <img class="bn-line-2 mb-nars-al" src="images/Mainbanner/Shape02-copy.png" alt="보조선">
+                            </div>
+                        <p class="bn-1-the">the</p>
+                        <p class="bn-1-original">ORIGINAL</p>
+                        <p class="bn-1-powder">
+                            CLIFF / COVER / CREEL<br>Soft Matt Advanced Perfecting Powder
+                        </p>
+                        <p class="bn-1-desc">
+                            NEW SOFT MATTE ADVANCED PERFECTING POWDER Makeup, locked.<br>Shine, blocked. Meet the new multi-purpose formula that controls shine, blurs imperfections, and sets foundation-all for 24 hours.
+                        </p>
+                        <a class="bn-1-logo" href="#">
+                            <img src="images/nars-logo-black.png" alt="나스로고-블랙">
+                        </a>
+                        </div>
+                        <!-- 배너2 -->
+                        <div class="swiper-slide banner-2">
+                        <a class="bn-2-logo" href="#">
+                            <img src="images/nars-whitelogo.png" alt="나스로고-화이트">
+                        </a>
+                        <img class="bn-2-back" src="images/Mainbanner/banner-2.png" alt="메인배너2-배경">
+                        <img class="bn2-img" src="images/Mainbanner/banner-2img.png" alt="메인배너2-제품이미지">
+                        <p class="bn-2-title">PRIMAVERA<br class="none"> 2023 <br class="none">CLAUDETTE</p>
+                        <p class="bn-2-desc">This collection is dedicated to François Nars's mother and muse, Claudette.</p>
+                        </div>
+                        <!-- 배너3 -->
+                        <div class="swiper-slide banner-3">
+                            <img class="bn-3-back" src="images/Mainbanner/banner03.png" alt="메인배너3-이미지">
+                            <a href="#" class="bn-3-logo">
+                                <img src="images/nars-logo-black.png" alt="나스로고-블랙">
+                            </a>
+                            <h2 class="bn-3-left">Special<br>Body Oil</h2>
+                            <h2 class="bn-3-right">Rich and<br>Shimmer</h2>
+                            <p class="bn-3-desc">황홀하고 매혹적인 바디 오일을 만나보세요.<br>풍부한 영양 공급 성분이 함유된 드라이 바디 오일은 실키하고 가벼운 포뮬러로 피부에 자연스러운 골든 핑크 쉬머 컬러를 더해줍니다. </p>
+                            <p class="bn-3-item-desc1">
+                                MONOÏ BODY GLOW II<br>2.26 Fl Oz. 67 mL
+                            </p>
+                            <p class="bn-3-item-desc2">
+                                MONOÏ BODY GLOW I<br>2.26 Fl Oz. 67 mL
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LEFT gnb -->
+        <div class="sticky-sec">
+            <h1 class="logo">
+                <a href="#"><img src="images/nars-logo-black.png" alt="나스로고-블랙"></a>
+            </h1>
+            <div class="sticky-gnb">
+                <ul class="st-main">
+                    <li><a href="#">New</a></li>
+                    <li><a class="st-after" href="#">Products</a>
+                        <ul class="st-sub">
+                            <li><a href="#">브러쉬 / 툴</a></li>
+                            <li><a href="#">페이스</a></li>
+                            <li><a href="#">치크</a></li>
+                            <li><a href="#">립</a></li>
+                            <li><a href="#">아이</a></li>
+                            <li><a href="#">멀티유즈</a></li>
+                            <li><a href="#">스킨케어</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"> Best Seller</a></li>
+                    <li><a class="st-after" href="#">Francois NARS</a>
+                        <ul class="st-sub">
+                            <li><a href="#">Explore</a></li>
+                            <li><a href="#">About Francois</a></li>
+                            <li><a href="#">Books</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Foundation Finder</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- best seller -->
+        <section class="best-seller">
+            <div class="bs-back">
+                <img src="images/bestseller/best-back-img.png" alt="베스트메인이미지">
+            </div>
+            <img class="bs-rotate" src="images/bestseller/best-rotate.png" alt="베스트회전이미지">
+            <div class="bs-text">
+                <h1>BEST SELLER</h1>
+                <p>나스의 인기 상품들을 만나보세요.</p>
+            </div>
+            <div class="hover-tab">
+                <div class="box4">
+                    <a href="#work01">
+                        <img src="images/bestseller/best-blush.png" alt="블러쉬">
+                    </a>
+                    <a href="#work02">
+                        <img src="images/bestseller/best-con.png" alt="컨실러">
+                    </a>
+                    <a href="#work03">
+                        <img src="images/bestseller/best-tint.png" alt="틴트">
+                    </a>
+                    <a href="#work04">
+                        <img src="images/bestseller/best-cush.png" alt="쿠션">
+                    </a>
+                </div>
+                <div class="tab-back">
+                    <section class="tab" id="work01">
+                        <img src="images/bestseller/blush-hover.png" alt="블러쉬호버이미지">
+                    </section>
+                    <section class="tab" id="work02">
+                        <img src="images/bestseller/con-hover.png" alt="컨실러호버이미지">
+                    </section>
+                    <section class="tab" id="work03">
+                        <img src="images/bestseller/tint-hover.png" alt="틴트호버이미지">
+                    </section>
+                    <section class="tab" id="work04">
+                        <img src="images/bestseller/cush-hover.png" alt="쿠션호버이미지">
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- edition -->
+        <section class="edition clearfix">
+            <div class="swiper edition-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/edition/img-1.png" alt="브론징에디션이미지">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/edition/img-2.png" alt="애프터글로우에디션이미지">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper edit-bottom">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <h1>BRONZING EDITION</h1>
+                        <div class="bronz-bot">
+                            <img src="images/edition/bonzing-1.png" alt="브론징섀도우">
+                            <div class="bronz-desc">
+                                <h3>PARADISE FOUND BRONZING POWDER</h3>
+                                <ul>
+                                    <li>
+                                        <img src="images/edition/SAN JUAN.png" alt="브론징섀도우컬러1"> 
+                                        <p> SAN JUAN<br>Diffused light bronze with golden shimmer</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/edition/LAGUNA.png" alt="브론징섀도우컬러2">
+                                        <p> LAGUNA<br>Diffused brown with golden shimmer</p>
+                                    </li>
+                                    <li>
+                                        <img src="images/edition/CASINO.png" alt="브론징섀도우컬러3"> 
+                                        <p>CASINO<br>Diffused deep brown with golden shimmer</p></li>
+                                    <li>
+                                        <img src="images/edition/PUNTA.png" alt="브론징섀도우컬러4">
+                                        <p>PUNTA CANA<br>Diffused rich mahogany brown with golden shimmer</p></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <h1>AFTERGLOW EDITION</h1>
+                        <div class="afterglow-bot">
+                            <img src="images/edition/afterglow-1.png" alt="애프터글로우섀도우">
+                            <div class="afterglow-desc">
+                                <h3>NARS Afterglow Eyeshadow Palette</h3>
+                                <ul>
+                                    <li>
+                                        <img src="images/edition/FIRST TASTE.png" alt="애프터섀도우1">FIRST TASTE
+                                    </li>
+                                    <li><img src="images/edition/CRUSHED.png" alt="애프터섀도우2">CRUSHED
+                                    </li>
+                                    <li>
+                                        <img src="images/edition/BAYADERE.png" alt="애프터섀도우3">BAYADERE
+                                    </li>
+                                    <li><img src="images/edition/SHADOW HILL.png" alt="애프터섀도우4">SHADOW HILL</li>
+                                    <li><img src="images/edition/MAD LOVE.png" alt="애프터섀도우5">MAD LOVE</li>
+                                    <li><img src="images/edition/TROUBLE.png" alt="애프터섀도우6">TROUBLE</li>
+                                    <li><img src="images/edition/HOT LINE.png" alt="애프터섀도우7">HOT LINE</li>
+                                    <li><img src="images/edition/RIDING HIGH.png" alt="애프터섀도우8">RIDING HIGH</li>
+                                    <li><img src="images/edition/DEEP CUT.png" alt="애프터섀도우9">DEEP CUT</li>
+                                    <li><img src="images/edition/WHIPED.png" alt="애프터섀도우10">WHIPPED</li>
+                                    <li><img src="images/edition/PUSH IT.png" alt="애프터섀도우11">PUSH IT</li>
+                                    <li><img src="images/edition/GUAYAQUIL.png" alt="애프터섀도우12">GUAYAQUIL</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper edit-img-swiper">
+                <!-- <iframe class="edit-video" width="100%" height="100%" src="https://www.youtube.com/embed/_KxGQ6zHn5M?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" autoplay="true" allowfullscreen></iframe>  -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/edition/에디션-1-3.png" alt="에디션화보이미지1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/edition/에디션-2-3.png" alt="에디션화보이미지2">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- fond -->
+        <section class="foundation clearfix">
+            <div class="foun-title">
+                <h1>FOUNDATION</h1>
+            </div>
+            <h2>FOUNDATION</h2>
+            <div class="foun-swiper-2">
+                <div class="swiper foun-item-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="foun-item" src="images/foundation/found-1.png" alt="파운데이션1">
+                            <p class="foun-1-name">LIGHT REFLECTING FOUNDATION<br>
+                                1 fl oz / 30 ml</p>
+                            <img class="foun-son" src="images/foundation/foun-1-color.png" alt="파운데이션1-손목발색">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="foun-item" src="images/foundation/found-2.png" alt="파운데이션2">
+                            <p class="foun-2-name">PURE RADIANT TINTED MOISTURIZER<br>
+                                SPF 30/PA+++ 1.9 fl oz / 50 ml</p>
+                            <img class="foun-son" src="images/foundation/foun-2-color.png" alt="파운데이션2-손목발색">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="foun-item" src="images/foundation/found-3.png" alt="파운데이션3">
+                            <p class="foun-3-name">SHEER GLOW FOUNDATION<br>
+                                1.0 Fl. Oz. 30 mL</p>
+                            <img class="foun-son" src="images/foundation/fonn-3-color.png" alt="파운데이션3-손목발색">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper foun-img-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/foundation/foun1-back.png" alt="파운데이션배경이미지1">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/foundation/foun2-back.png" alt="파운데이션배경이미지2">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/foundation/foun-3-back.png" alt="파운데이션배경이미지3">
+                        </div>
+                    </div>
+                </div>
+                <div class="foun-pagination"></div>
+                <div class="foun-att">
+                    <img src="images/foun-gra.png" alt="모바일-파운데이션배경이미지">
+                    <p>FOUNDATION</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- lip -->
+        <section class="lip">
+            <img class="lip-back" src="images/lipstick/lip-back.png" alt="립스틱배경이미지">
+            <img src="images/lipstick/lip-rotate.png" alt="립스틱회전이미지" class="lip-rotate">
+            <div class="inner">
+                <div class="lip-rotate"></div>
+                <div class="lip-text">
+                    <h1>New</h1>
+                    <h2>POWERMATTE LIPSTICK</h2>
+                    <p>FINISH: Matte</p>
+                    <p>COVERAGE: Full</p>
+                    <p>BENEFIT: Bold color that lasts for 10 hours</p>
+                </div>
+                <div class="swiper lipSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/lipstick/101.png" alt="립스틱컬러이미지1">
+                            <div class="lip-h">
+                                <div class="c-box" style="background-color: #a24a31;"></div>
+                                <p>101 NO ANGEL</p>
+                                <p class="c-none">Soft brown pink</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/lipstick/111.png" alt="립스틱컬러이미지2">
+                            <div class="lip-h">
+                                <div class="c-box" style="background-color: #b74f4e;"></div>
+                                <p>111 TEASE ME</p>
+                                <p class="c-none">Rose pink</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/lipstick/120.png" alt="립스틱컬러이미지3">
+                            <div class="lip-h">
+                                <div class="c-box" style="background-color:#e2695e;"></div>
+                                <p>121 INDISCREET</p>
+                                <p class="c-none">Coral pink</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/lipstick/102.png" alt="립스틱컬러이미지4">
+                            <div class="lip-h">
+                                <div class="c-box" style="background-color:#9e3e30;"></div>
+                                <p>102 KILLER QUEEN</p>
+                                <p class="c-none">Rose brown</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/lipstick/121.png" alt="립스틱컬러이미지5">
+                            <div class="lip-h">
+                                <div class="c-box" style="background-color: #cc6052;"></div>
+                                <p>121 FREE BIRD</p>
+                                <p class="c-none">Peachy coral</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/lipstick/130.png" alt="립스틱컬러이미지6">
+                            <div class="lip-h">
+                                <div class="c-box" style="background-color:#e81a20;"></div>
+                                <p>130 FEEL MY FIRE</p>
+                                <p class="c-none">Hot coral</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/lipstick/132.png" alt="립스틱컬러이미지7">
+                            <div class="lip-h">
+                                <div class="c-box" style="background-color:#b60f23;"></div>
+                                <p>132 DRAGON GIRL</p>
+                                <p class="c-none">Vivid siren red</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/lipstick/151.png" alt="립스틱컬러이미지8">
+                            <div class="lip-h">
+                                <div class="c-box" style="background-color:#7d2b2f;"></div>
+                                <p>151 NIGHT MOVES</p>
+                                <p class="c-none">Deep PLUM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lip-prev">
+                    <span class="material-symbols-outlined">
+                        line_start_arrow_notch
+                        </span>
+                </div>
+                <div class="lip-next">
+                    <span class="material-symbols-outlined">
+                        line_start_arrow_notch
+                        </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- half-->
+        <section class="half">
+            <img src="images/last-img/last-mainimg.png" alt="디자이너배경이미지">
+            <div class="half-txt">
+                <p class="half-first" data-aos="zoom-in">"I HAVE A<br>REAL LOVE AFFAIR<br>WITH LIPSTICK."
+                </p>
+                <p class="half-mid" data-aos="fade-right">
+                    “I like to shock, I try not to be boring. The NARS collection is timeless.<br class="none">And chic with a touch of fashion. But, I still like to be provocative.”<br class="none">- FRANÇOIS NARS
+                </p>
+            </div> 
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="inner">
+                <div class="f-menu help">
+                    <h3>HELP & FAQ</h3>
+                    <h4>Customer Care</h4> 
+                </div>
+                <div class="f-menu ways">
+                    <h3>WAYS TO SHOP</h3>
+                    <h4>What's New</h4>
+                    <h4>Award Winners</h4>
+                    <h4>Find a NARS Boutique</h4>
+                </div>
+                <div class="f-menu follow">
+                    <h3>FOLLOW US</h3>
+                    <a href="#">
+                        <img src="images/main_ft_snsfa.png" alt="페이스북">
+                    </a>
+                    <a href="#">
+                        <img src="images/main_ft_snsin.png" alt="인스타그램">
+                    </a>
+                    <a href="#">
+                        <img src="images/main_ft_snskt.png" alt="카카오톡">
+                    </a>
+                    <a href="#">
+                        <img src="images/main_ft_snsyt.png" alt="유튜브">
+                    </a>
+                </div>
+                <div class="f-menu choose">
+                    <h3>고객문의서비스</h3>
+                    <h4>이메일</h4>
+                    <h4>문의하기 080-564-7700</h4>
+                </div>
+                <div class="f-text">
+                    <p>개인정보 처리방침 이용약관</p>
+                    <p>2023 나스 코스메틱 ALL RIGHT RESERVED</p>
+                </div>
+            </div>
+        </footer>
+            
+    </div>
+</body>
+</html>
