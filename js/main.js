@@ -303,7 +303,4 @@ $(document).ready(function(){
             }
         })
         })
-
-    
-
 });
