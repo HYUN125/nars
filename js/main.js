@@ -231,7 +231,6 @@ $(document).ready(function(){
             sectionColor();
         })
     })
-
     function moveSection(_index){
         sectionIndex = _index;
         gsap.to($('html'), sectionSpeed/1000,{
@@ -244,8 +243,8 @@ $(document).ready(function(){
     // sticky gnb click
     $('.st-main li a').click(function(e){
         e.preventDefault();
-        $(this).next().slideToggle().parent().siblings().children(sticky_sub).slideUp();
-        $(this).parent().siblings().children().slideUp();
+        $(this).next().slideToggle();
+        $(this).parent().siblings().find($('.st-sub')).slideUp();
     })
 
     // bestseller-tab
